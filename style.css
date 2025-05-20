@@ -1,0 +1,60 @@
+:root{
+    background-color: lightgray;
+}
+.container{
+    display: flex;
+}
+.left{
+    /* 100vh = as tall as viewpoint */
+    height: 100vh; 
+    flex:1;
+    background-image: url("static/background_img.webp");
+    background-size: cover;
+}
+.right{
+    flex: 2;
+    border: 2px solid red;
+    padding: 30px;
+}
+.wrapper{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 100px;
+}
+.odinLogo1{
+    height: 100%;
+}
+.odinText{
+    color: white;
+    font-weight: 900;
+    font-size: 36px;
+    align-self: center;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.formWrapper{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    /* justify-content: space-around; */
+}
+.formElement{
+    display: flex;
+    flex-direction: column;
+}
+.leftForm, .rightForm{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.test{
+    background-color: white;
+    padding-bottom: 40px;
+    padding-top: 1px;
+}
