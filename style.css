@@ -1,5 +1,7 @@
 :root{
-    background-color: lightgray;
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Roboto', 'sans-serif';
 }
 .container{
     display: flex;
@@ -13,8 +15,8 @@
 }
 .right{
     flex: 2;
-    border: 2px solid red;
-    padding: 30px;
+  /*   border: 2px solid red; */
+   /*  padding: 30px; */
 }
 .wrapper{
     height: 20%;
@@ -54,7 +56,25 @@
     flex-direction: column;
 }
 .test{
-    background-color: white;
+    background-color: darkgreen;
     padding-bottom: 40px;
     padding-top: 1px;
+}
+.acc{
+    border-radius: 6px;
+    padding: 10px;
+    background-color: black;
+    color: green;
+    font-weight: 900;
+    border-color: white;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    width: 60%;
+    font-size: 22px;
+}
+.right > *{
+    padding: 50px;
 }
